@@ -25,6 +25,7 @@ class App extends Component {
     })
     return(
     <div className="App">
+      <h1> Monsters Dev.f </h1>
       <SearchBox placeholder="Buscar" handleChange={e => this.setState({search: e.target.value})} />
       <CardList monsters ={filteredMosters} />
     </div>
